@@ -2,6 +2,7 @@ import javax.servlet.*;
 import java.io.IOException;
 
 public class AuthenFilter implements Filter {
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 // 获取初始化参数
